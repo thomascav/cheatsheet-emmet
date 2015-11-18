@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Cheatsheet emmet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/emmet.css">
@@ -11,15 +11,251 @@
 
 <body>
     <header class="row">
-        <div class="small-12 comulns">
-            <h1>-CheatSheet Emmet-</h1>
+        <div class="large-12 columns">
+            <div class="panel">
+                <h1>Emmet -CheatSheets-</h1>
+            </div>
         </div>
     </header>
     <section class="row">
-        <article class="small-12 columns medium-6 columns large-4 columns">
 
+        <div class="row">
+            <nav class="large-3 columns ">
+                <div class="panel">
+                    <a href="#">
+                        <img src="http://placehold.it/300x240&text=[img]" />
+                    </a>
+                    <h5><a href="#">Accueil</a></h5>
+                    <div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
+                        <section class="section">
+                            <h5 class="title"><a href="#">HTML</a></h5>
+                        </section>
+                        <section class="section">
+                            <h5 class="title"><a href="#">CSS</a></h5>
+                        </section>
+                    </div>
+
+                </div>
+            </nav>
+
+            <article>
+                <h4>HTML SHORTCUTS</h4>
+                <table class="large-9 columns">
+
+
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <code>x>y</code>
+                            </td>
+                            <td>Permet de placer une balise y dans une balise x</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>x>y</code>*n</td>
+                            <td>Permet de placer n balises y dans une balise x</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>x+y</code>+z</td>
+                            <td>place dans l'ordre, à la ligne des balises x, y et z</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>x>y</code>.item$*5</td>
+                            <td>Permet de placer 5 y de class item numérotés de 1 à 5 dans une balise x. Le nombre de $ determine le nombre de chiffre de numérotation</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>#x </code>/ p#x</td>
+                            <td>place une id x dans une div / place une id x dans un balise p</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>.x </code>/ p.x</td>
+                            <td>Place une class x dans une div / place une class x dans un balise p</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>a{x</code>xx}</td>
+                            <td>Ajoute le texte xxx entre deux balises a</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>link / link:css</code>
+                            </td>
+                            <td>Ajoute une ligne link pour le css avec href vide / ajoute la même ligne avec le href renseigné</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>img / link:css</code>
+                            </td>
+                            <td>Ajoute une balise img</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>link / link:css</code>
+                            </td>
+                            <td>Ajoute une ligne link pour le css avec href vide / ajoute la même ligne avec le href renseigné</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>link / link:css</code>
+                            </td>
+                            <td>Ajoute une ligne link pour le css avec href vide / ajoute la même ligne avec le href renseigné</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <h4>CSS SHORTCUTS</h4>
+            <article>
+                <table class="large-9 columns">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <code>pos / pos:s</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut "position" / ajoute l'attribut avec la valeur static
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>fl /fl:n</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut float (par défaut left) / ajoute l'attribut avec la valeur none
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>cl /cl:n</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut clear (par défaut both) / ajoute l'attribut avec la valeur none
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>d /d:ib</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut display (par défaut block) / ajoute l'attribut avec la valeur inline-block
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>m (mt mr mb ml)</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut margin (top right bottom left)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>m (pt pr pb pl)</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut paddin (top right bottom left)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code> h / w (:a)</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut height / width (valeur auto)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>f / fs / fz / ff </code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut font / font-style / font-size / font-family
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>ta</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut text-align (par défaut left)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>bg</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut background
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>bgc</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut background-color
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>c (:r :ra)</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut color (rgb rgba)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>bd</code>
+                            </td>
+                            <td>
+                                Ajoute l'attribut border
+                            </td>
+                        </tr>
+                        <td>
+                            <code>bdrs</code>
+                        </td>
+                        <td>
+                            Ajoute l'attribut border-radius
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>lis / list</code>
+                        </td>
+                        <td>
+                            Ajoute l'attru=ibut list-style / list-style-type
+                        </td>
+                    </tr>
+                    </tbody>
+        </div>
         </article>
+        <footer class="row">
+            <div class="large-12 columns">
+                <hr/>
+                <div class="row">
+                    <div class="large-5 columns">
+                        <p>© Copyright no one at all. Go to town.</p>
+                    </div>
+                    <div class="large-7 columns">
+                        <ul class="inline-list right">
+                            <li><a href="#">Section 1</a></li>
+                            <li><a href="#">Section 2</a></li>
+                            <li><a href="#">Section 3</a></li>
+                            <li><a href="#">Section 4</a></li>
+                            <li><a href="#">Section 5</a></li>
+                            <li><a href="#">Section 6</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </section>
+
 </body>
 
 </html>

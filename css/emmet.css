@@ -1,0 +1,12 @@
+body {
+    font-size: 62.5%;
+}
+table, td {
+    font-size: 1.5em;
+    border: 0.1em black solid;
+    background-color: #EEF6FF;
+    box-shadow: 0.06em 0.06em 0.75em #555;
+}
+nav {
+    position: fixed;
+}
