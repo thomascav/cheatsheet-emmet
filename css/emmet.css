@@ -1,25 +1,54 @@
 body {
     font-size: 62.5%;
 }
+header {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 table, td {
     font-size: 1.5em;
-    border: 0.1em black solid;
+    /*border: 0.1em black solid;*/
     background-color: #EEF6FF;
     box-shadow: 0.06em 0.06em 0.75em #555;
+}
+nav img {
+    float: center;
+    height: 15em;
+    margin-top: 0.1em;
 }
 nav {
     position: fixed;
     background-color: #00e676;
+    text-align: center;
+    padding-top: 0.3em;
+    margin-top: 0.3em;
+}
+nav h5 {
+    padding-top: 0.5em;
 }
 .section {
     background-color: #00e676;
 }
 .panel {
     background-color: #00e676;
+    padding: 2em;
+    margin: 1em;
+    border-style: none;
 }
-#html {
+h4 {
     text-align: center;
+    background-color: #00c853;
+    padding: 1.5em;
 }
-#css {
-    text-align: center;
+.homeicon {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 0.05em;
+    color: #1b5e20;
+}
+footer p a {
+    text-decoration: none;
 }
