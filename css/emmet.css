@@ -9,4 +9,17 @@ table, td {
 }
 nav {
     position: fixed;
+    background-color: #00e676;
+}
+.section {
+    background-color: #00e676;
+}
+.panel {
+    background-color: #00e676;
+}
+#html {
+    text-align: center;
+}
+#css {
+    text-align: center;
 }
