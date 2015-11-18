@@ -11,7 +11,11 @@ table, td {
     font-size: 1.5em;
     /*border: 0.1em black solid;*/
     background-color: #EEF6FF;
-    box-shadow: 0.06em 0.06em 0.75em #555;
+    box-shadow: 0.06em 0.06em 0.1em #555;
+
+}
+table, tr td:hover {
+    box-shadow: 0.06em 0.06em 0.50em #555;
 }
 nav img {
     float: center;
@@ -24,6 +28,15 @@ nav {
     text-align: center;
     padding-top: 0.3em;
     margin-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+nav div section {
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    margin: 0.3em;
+}
+nav div section:hover {
+    box-shadow: 0.06em 0.06em 0.50em #555;
 }
 nav h5 {
     padding-top: 0.5em;
@@ -48,6 +61,9 @@ h4 {
     float: right;
     margin-top: 0.05em;
     color: #1b5e20;
+}
+.homeicon:hover {
+    box-shadow: 0.06em 0.06em 0.50em #555;
 }
 footer p a {
     text-decoration: none;
